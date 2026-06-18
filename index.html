@@ -26,20 +26,26 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <header>
-        <div>
-            <img src="./assets/logo.png" alt="">
-            <h2>Hero Travel</h2>
-        </div>
 
-        <ul>
-            <li>Home</li>
-            <li>Packages</li>
-            <li>Testimonial</li>
-            <li>Blog</li>
-            <li>Contact</li>
-        </ul>
+    <!-- Navbar -->
+    <header class=" my-7 lg:my-10">
+        <nav class="max-w-[95%] lg:max-w-[82%]  mx-auto  flex justify-between items-center">
+            <div class="flex justify-center gap-3 items-center">
+                <img class="max-w-[48px] h-auto" src="./assets/logo.png" alt="">
+                <h2 class="text-2xl lg:text-3xl text-[#131318] font-extrabold">Hero <span
+                        class="text-[#FF5400]">Travel</span></h2>
+            </div>
+
+            <ul class="hidden lg:flex gap-10 text-[18px] text-[#424247] font-semibold">
+                <li class=" text-[#FF5400] text-[20px] transition-all duration-300 ease-in-out hover:scale-105">Home
+                </li>
+                <li class="transition-all duration-300 ease-in-out hover:scale-105">Packages</li>
+                <li class="transition-all duration-300 ease-in-out hover:scale-105">Testimonial</li>
+                <li class="transition-all duration-300 ease-in-out hover:scale-105">Blog</li>
+                <li class="transition-all duration-300 ease-in-out hover:scale-105">Contact</li>
+            </ul>
+            <span class="lg:hidden  text-[18px] cursor-pointer "><i class="fa-solid fa-bars"></i></span>
+        </nav>
     </header>
 
 </body>
