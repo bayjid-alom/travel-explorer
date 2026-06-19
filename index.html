@@ -29,7 +29,7 @@
 
     <!-- Navbar -->
     <header class=" my-7 lg:my-10">
-        <nav class="max-w-[95%] lg:max-w-[82%]  mx-auto  flex justify-between items-center">
+        <nav class="max-w-[94%] lg:max-w-[82%]  mx-auto  flex justify-between items-center">
             <div class="flex justify-center gap-3 items-center">
                 <img class="max-w-[48px] h-auto" src="./assets/logo.png" alt="">
                 <h2 class="text-2xl lg:text-3xl text-[#131318] font-extrabold">Hero <span
@@ -51,9 +51,64 @@
 
 
     <main>
-        <section class="banner"></section>
+
+        <!-- Banner section -->
+        <section
+            class="max-w-[94%] lg:max-w-[82%] mx-auto rounded-lg bg-[url('./assets/banner-bg.png')] bg-no-repeat bg-cover  py-5 lg:py-25 relative overflow-hidden">
+            <!-- overlay -->
+            <div class="absolute inset-0 bg-black/30"></div>
+
+
+            <!-- এখানে ইন্ডেক্স ১০ দেওয়ার কারণ হলোঃ টেক্সট সবার উপরে রাখতে । -->
+            <div class="relative z-10 max-w-[90%] lg:max-w-[800px] rounded-lg mx-auto ">
+
+                <h2 class="text-center text-[32px] lg:text-[64px] font-extrabold mb-6 text-[#FFFFFF]">Explore Your
+                    Travel</h2>
+                <p
+                    class="text-center text-white font-semibold mb-12 transition-all duration-300 ease-in-out hover:scale-105">
+                    Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Saepe dignissimos eum consectetur doloremque doloribus expedita minima? Illum
+                    molestiae nobis eius sed repellat eaque officiis numquam.</p>
+
+
+                <div
+                    class="border-none bg-[#FFFFFF]/40 p-3 lg:p-5 flex flex-wrap flex-col lg:flex-row gap-4 justify-between items-center text-center rounded-lg ">
+
+
+                    <input
+                        class="w-full flex-1 p-3.5 font-semibold text-[#131318] bg-white border-none rounded-md transition-all duration-300 ease-in-out hover:shadow-lg "
+                        type="text" name="" id="" placeholder="Where go?">
+
+                    <select
+                        class="w-full  flex-1 p-3.5 font-semibold text-[#131318] bg-white border-none rounded-md transition-all duration-300 ease-in-out hover:shadow-lg"
+                        name="" id="">
+                        <option value="">When?</option>
+                        <option value="">20 June 2026</option>
+                        <option value="">22 June 2026</option>
+                        <option value="">24 June 2026</option>
+                    </select>
+
+                    <select
+                        class="w-full flex-1 p-3.5 font-semibold text-[#131318] bg-white border-none rounded-md transition-all duration-300 ease-in-out hover:shadow-lg"
+                        name="" id="">
+                        <option value="">Select type</option>
+                        <option value="">Option 1</option>
+                        <option value="">Option 2</option>
+                        <option value="">Option 3</option>
+                    </select>
+
+                    <button
+                        class="w-full flex-1 p-3.5 font-bold text-[#FFFFFF] bg-[#FF5400] border-none rounded-md transition-all duration-300 ease-in-out hover:shadow-lg">
+                        <i class="fa-solid fa-magnifying-glass"></i> Find
+                        Now</button>
+
+                </div>
+
+
+            </div>
+        </section>
     </main>
-    
+
 
 </body>
 
